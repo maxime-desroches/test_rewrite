@@ -15,4 +15,4 @@ jobs:
         with:
           message: |
             Hello world ${{ steps.gen_table.outputs.docker_tag }} ! :wave:
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
